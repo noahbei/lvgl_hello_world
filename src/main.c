@@ -131,6 +131,7 @@ int main(void)
 		}
 		lv_task_handler();
 		++count;
+		//LOG_INF("count: %d", count);
 		k_sleep(K_MSEC(10));
 	}
 }
